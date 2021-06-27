@@ -48,5 +48,16 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func clickedNext(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "goTo2ndScrollView", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goTo2ndScrollView"{
+            let destinationVC = segue.destination as! _ndScrollViewController
+            
+            destinationVC.location = location
+        }
+    }
 }
 

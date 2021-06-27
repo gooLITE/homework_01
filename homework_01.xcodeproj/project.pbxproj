@@ -15,6 +15,8 @@
 		DD51F145267E2E45005683B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD51F143267E2E45005683B0 /* LaunchScreen.storyboard */; };
 		DD51F14D267F2881005683B0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51F14C267F2881005683B0 /* Extension.swift */; };
 		DD51F152267F947E005683B0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51F151267F947E005683B0 /* Data.swift */; };
+		DD8A2EA126875F4600978981 /* 2ndScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8A2EA026875F4600978981 /* 2ndScrollViewController.swift */; };
+		DD8A2EA32688D88E00978981 /* 3rdScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8A2EA22688D88E00978981 /* 3rdScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		DD51F146267E2E45005683B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD51F14C267F2881005683B0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		DD51F151267F947E005683B0 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		DD8A2EA026875F4600978981 /* 2ndScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2ndScrollViewController.swift; sourceTree = "<group>"; };
+		DD8A2EA22688D88E00978981 /* 3rdScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3rdScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 			children = (
 				DD51F14C267F2881005683B0 /* Extension.swift */,
 				DD51F13C267E2E43005683B0 /* ViewController.swift */,
+				DD8A2EA026875F4600978981 /* 2ndScrollViewController.swift */,
+				DD8A2EA22688D88E00978981 /* 3rdScrollViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -167,8 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8A2EA32688D88E00978981 /* 3rdScrollViewController.swift in Sources */,
 				DD51F13D267E2E43005683B0 /* ViewController.swift in Sources */,
 				DD51F152267F947E005683B0 /* Data.swift in Sources */,
+				DD8A2EA126875F4600978981 /* 2ndScrollViewController.swift in Sources */,
 				DD51F139267E2E43005683B0 /* AppDelegate.swift in Sources */,
 				DD51F13B267E2E43005683B0 /* SceneDelegate.swift in Sources */,
 				DD51F14D267F2881005683B0 /* Extension.swift in Sources */,
