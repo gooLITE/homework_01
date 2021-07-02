@@ -378,7 +378,6 @@
                                     <constraint firstItem="beh-xb-CiM" firstAttribute="width" secondItem="FYa-dD-XbS" secondAttribute="width" id="kYn-Xh-aBK"/>
                                     <constraint firstItem="beh-xb-CiM" firstAttribute="top" secondItem="laE-Yp-Kx7" secondAttribute="top" id="nJO-JP-fiQ"/>
                                     <constraint firstItem="beh-xb-CiM" firstAttribute="width" secondItem="laE-Yp-Kx7" secondAttribute="width" id="qjT-PY-DTY"/>
-                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="beh-xb-CiM" secondAttribute="bottom" id="r2N-TS-wCN"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="FYa-dD-XbS"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="IgS-oM-hCa"/>
